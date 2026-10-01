@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CICDWebApi/CICDWebApi.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CICDTest/CICDTest.csproj" />
+  </Folder>
+</Solution>
