@@ -48,9 +48,8 @@ public class MainProcess
   public string CutEnd(int howMuch)
   {
     // break-test
-    if (howMuch == 0)
-      return "Zero length is not a meningful cut!";
-
+    // if (howMuch == 0)
+    //   return "Zero length is not a meningful cut!";
 
     if (howMuch > _mainStr.Length)
       throw new InvalidDataException("Tail can not be greater than whole string!");
